@@ -35,7 +35,7 @@ const load = ({ lib, version, accessToken } = {}) => {
     script.async = true;
     script.onload = () => {
       CALLBACK_CACHE[lib].forEach(({ resolve }) => {
-        resolve(window.JawgPlaces);
+        resolve(window[lib]);
       });
     };
 

@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A library to load jawg js libraries",
   "main": "./dist/jawg-js-loader.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
@@ -14,6 +15,8 @@
     "src/index.js",
     "dist/jawg-js-loader.js",
     "README.md",
+    "tsconfig.json",
+    "index.d.ts",
     "packages.json"
   ],
   "devDependencies": {
@@ -30,5 +33,8 @@
     "rollup-plugin-app-utils": "^1.0.6",
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "@jawg/types": "^1.0.0"
   }
 }
