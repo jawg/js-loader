@@ -3,7 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 import { emptyDirectories } from 'rollup-plugin-app-utils';
 import serve from 'rollup-plugin-serve';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 import { babel } from '@rollup/plugin-babel';
 const useServe = process.env.ROLLUP_SERVE === 'true';
 const port = process.env.ROLLUP_PORT || 8000;
