@@ -1,6 +1,6 @@
 {
   "name": "@jawg/js-loader",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A library to load jawg js libraries",
   "main": "./dist/jawg-js-loader.js",
   "types": "./index.d.ts",
